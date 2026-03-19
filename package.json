@@ -1,0 +1,43 @@
+{
+  "name": "@claiv/memory",
+  "version": "0.6.4",
+  "description": "Official JavaScript/TypeScript SDK for the Claiv Memory API (V6 - Catalog Memory + Deterministic Routing)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "claiv",
+    "memory",
+    "ai",
+    "context",
+    "llm",
+    "sdk"
+  ],
+  "author": "Claiv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kinkaid2002/claiv-memory.git",
+    "directory": "packages/sdk-js"
+  },
+  "homepage": "https://claiv.io",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^4.0.18"
+  }
+}
